@@ -1,4 +1,8 @@
 {
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  },
   "images" : [
     {
       "idiom" : "universal",
@@ -6,16 +10,13 @@
     },
     {
       "idiom" : "universal",
-      "scale" : "2x"
+      "scale" : "2x",
+      "filename" : "File@2x.png"
     },
     {
       "idiom" : "universal",
-      "filename" : "icons8-File.png",
+      "filename" : "File@3x.png",
       "scale" : "3x"
     }
-  ],
-  "info" : {
-    "version" : 1,
-    "author" : "xcode"
-  }
+  ]
 }
