@@ -18,8 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSArray *titles = @[@"Bookmark",@"Camera",@"Edit",@"File",@"Folder",@"Open",@"Picture",@"Restart",@"Search",@"Share",@"Synchronize",@"Trash"];
-    NSArray *icons = @[@"Bookmark",@"Camera",@"Edit",@"File",@"Folder",@"Open",@"Picture",@"Restart",@"Search",@"Share",@"Synchronize",@"Trash"];
+    NSArray *titles = @[@"Bookmark",@"Camera",@"Edit",@"File",@"Folder",@"Open",@"Picture",@"Restart",@"Search",@"Share",@"Synchronize",@"Trash",@"Bookmark",@"Camera",@"Edit",@"File",@"Folder",@"Open",@"Picture",@"Restart",@"Search",@"Share",@"Synchronize",@"Trash"];
+    NSArray *icons = @[@"Bookmark",@"Camera",@"Edit",@"File",@"Folder",@"Open",@"Picture",@"Restart",@"Search",@"Share",@"Synchronize",@"Trash",@"Bookmark",@"Camera",@"Edit",@"File",@"Folder",@"Open",@"Picture",@"Restart",@"Search",@"Share",@"Synchronize",@"Trash"];
     
     CHTButtonPageView *pageView = [[CHTButtonPageView alloc] initWithFrame:CGRectMake(0, 200, CGRectGetWidth(self.view.frame), 120) verCountPerPage:2 horCountPerPage:5];
     [pageView configIcons:icons titles:titles];

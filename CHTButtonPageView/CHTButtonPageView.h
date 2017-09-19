@@ -21,9 +21,12 @@
 @property (nonatomic, weak) id <CHTButtonPageViewDelegate> delegate; ///< CHTButtonPageViewDelegate
 
 // initialize method
-- (instancetype)initWithFrame:(CGRect)frame verCountPerPage:(NSInteger)verCountPerPage horCountPerPage:(NSInteger)horCountPerPage;
+- (instancetype)initWithFrame:(CGRect)frame
+              verCountPerPage:(NSInteger)verCountPerPage
+              horCountPerPage:(NSInteger)horCountPerPage;
 
 // config icons & titles
-- (void)configIcons:(NSArray <NSString *>*)icons titles: (NSArray <NSString *>*)titles;
+- (void)configIcons:(NSArray <NSString *>*)icons
+             titles: (NSArray <NSString *>*)titles;
 
 @end
